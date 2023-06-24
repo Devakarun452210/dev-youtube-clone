@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Youtube Clone</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="flexDiv">
+        <div class="navLeft flexDiv">
+            <img src="images/menu.png" onclick={smallSidebar()} class="menuIcon">
+            <div class="logo">
+                <img src="images/youtubelogo.png" alt="">
+                <h3 class="youtube">YouTube</h3>
+            </div>
+
+        </div>
+        <div class="navCenter flexDiv">
+            <div class="searchBox flexDiv">
+                <input type="text" placeholder="Search">
+                <img src="images/search.png" class="searchIcon">
+            </div>
+            <img src="images/voice-search.png" class="micIcon">
+        </div>
+        <div class="navRight flexDiv">
+            <img src="images/upload.png" alt="">
+            <img src="images/more.png" alt="">
+            <img src="images/notification.png" alt="">
+            <img src="images/Jack.png" class="userIcon">
+        </div>
+    </nav>
+
+    <!-- Sidebar -->
+
+    <div class="sidebar">
+        <div class="shortcutLinks">
+            <a href="">
+                <img src="images/home.png" alt="">
+                <p>Home</p>
+            </a>
+            <a href="">
+                <img src="images/explore.png" alt="">
+                <p>Explore</p>
+            </a>
+            <a href="">
+                <img src="images/subscriprion.png" alt="">
+                <p>Subscriprion</p>
+            </a>
+            <a href="">
+                <img src="images/library.png" alt="">
+                <p>Library</p>
+            </a>
+            <a href="">
+                <img src="images/history.png" alt="">
+                <p>History</p>
+            </a>
+            <a href="">
+                <img src="images/playlist.png" alt="">
+                <p>Playlist</p>
+            </a>
+            <a href="">
+                <img src="images/messages.png" alt="">
+                <p>Messages</p>
+            </a>
+            <a href="">
+                <img src="images/show-more.png" alt="">
+                <p>More</p>
+            </a>
+            <hr>
+        </div>
+        <div class="subscribedList">
+            <h3>Subscribed</h3>
+            <a href="">
+                <img src="images/Jack.png" alt="">
+                <p>Deva</p>
+            </a>
+            <a href="">
+                <img src="images/cameron.png" alt="">
+                <p>Cameron</p>
+            </a>
+
+            <a href="">
+                <img src="images/megan.png" alt="">
+                <p>Megan</p>
+            </a>
+
+
+            <a href="">
+                <img src="images/simon.png" alt="">
+                <p>Simon</p>
+            </a>
+            <a href="">
+                <img src="images/tom.png" alt="">
+                <p>Tom</p>
+            </a>
+
+        </div>
+    </div>
+
+    <!-- Main -->
+
+    <div class="container">
+        <div class="banner">
+            <img src="images/banner.png" alt="">
+        </div>
+        <div class="listContainer">
+            <div class="vidList">
+                <a href="playVideo.html"><img src="images/thumbnail1.png" class="thumbnail"></a>
+                <div class="flexDiv">
+                    <img src="images/Jack.png" alt="">
+                    <div class="videoInfo">
+                        <a href="playVideo.html">Best places to visit</a>
+                        <p>Websmith</p>
+                        <p>20M Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vidList">
+                <a href="playVideo.html"><img src="images/thumbnail2.png" class="thumbnail"></a>
+                <div class="flexDiv">
+                    <img src="images/Jack.png" alt="">
+                    <div class="videoInfo">
+                        <a href="playVideo.html">Best places to visit</a>
+                        <p>Websmith</p>
+                        <p>20M Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vidList">
+                <a href="playVideo.html"><img src="images/thumbnail3.png" class="thumbnail"></a>
+                <div class="flexDiv">
+                    <img src="images/Jack.png" alt="">
+                    <div class="videoInfo">
+                        <a href="playVideo.html">Best places to visit</a>
+                        <p>Websmith</p>
+                        <p>20M Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vidList">
+                <a href="playVideo.html"><img src="images/thumbnail4.png" class="thumbnail"></a>
+                <div class="flexDiv">
+                    <img src="images/Jack.png" alt="">
+                    <div class="videoInfo">
+                        <a href="playVideo.html">Best places to visit</a>
+                        <p>Websmith</p>
+                        <p>20M Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vidList">
+                <a href="playVideo.html"><img src="images/thumbnail5.png" class="thumbnail"></a>
+                <div class="flexDiv">
+                    <img src="images/Jack.png" alt="">
+                    <div class="videoInfo">
+                        <a href="playVideo.html">Best places to visit</a>
+                        <p>Websmith</p>
+                        <p>20M Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vidList">
+                <a href="playVideo.html"><img src="images/thumbnail6.png" class="thumbnail"></a>
+                <div class="flexDiv">
+                    <img src="images/Jack.png" alt="">
+                    <div class="videoInfo">
+                        <a href="playVideo.html">Best places to visit</a>
+                        <p>Websmith</p>
+                        <p>20M Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vidList">
+                <a href="playVideo.html"><img src="images/thumbnail7.png" class="thumbnail"></a>
+                <div class="flexDiv">
+                    <img src="images/Jack.png" alt="">
+                    <div class="videoInfo">
+                        <a href="playVideo.html">Best places to visit</a>
+                        <p>Websmith</p>
+                        <p>20M Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vidList">
+                <a href="playVideo.html"><img src="images/thumbnail8.png" class="thumbnail"></a>
+                <div class="flexDiv">
+                    <img src="images/Jack.png" alt="">
+                    <div class="videoInfo">
+                        <a href="playVideo.html">Best places to visit</a>
+                        <p>Websmith</p>
+                        <p>20M Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vidList">
+                <a href="playVideo.html"><img src="images/thumbnail1.png" class="thumbnail"></a>
+                <div class="flexDiv">
+                    <img src="images/Jack.png" alt="">
+                    <div class="videoInfo">
+                        <a href="playVideo.html">Best places to visit</a>
+                        <p>Websmith</p>
+                        <p>20M Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vidList">
+                <a href="playVideo.html"><img src="images/thumbnail2.png" class="thumbnail"></a>
+                <div class="flexDiv">
+                    <img src="images/Jack.png" alt="">
+                    <div class="videoInfo">
+                        <a href="playVideo.html">Best places to visit</a>
+                        <p>Websmith</p>
+                        <p>20M Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vidList">
+                <a href="playVideo.html"><img src="images/thumbnail3.png" class="thumbnail"></a>
+                <div class="flexDiv">
+                    <img src="images/Jack.png" alt="">
+                    <div class="videoInfo">
+                        <a href="playVideo.html">Best places to visit</a>
+                        <p>Websmith</p>
+                        <p>20M Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vidList">
+                <a href="playVideo.html"><img src="images/thumbnail4.png" class="thumbnail"></a>
+                <div class="flexDiv">
+                    <img src="images/Jack.png" alt="">
+                    <div class="videoInfo">
+                        <a href="playVideo.html">Best places to visit</a>
+                        <p>Websmith</p>
+                        <p>20M Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vidList">
+                <a href="playVideo.html"><img src="images/thumbnail5.png" class="thumbnail"></a>
+                <div class="flexDiv">
+                    <img src="images/Jack.png" alt="">
+                    <div class="videoInfo">
+                        <a href="playVideo.html">Best places to visit</a>
+                        <p>Websmith</p>
+                        <p>20M Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vidList">
+                <a href="playVideo.html"><img src="images/thumbnail6.png" class="thumbnail"></a>
+                <div class="flexDiv">
+                    <img src="images/Jack.png" alt="">
+                    <div class="videoInfo">
+                        <a href="playVideo.html">Best places to visit</a>
+                        <p>Websmith</p>
+                        <p>20M Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vidList">
+                <a href="playVideo.html"><img src="images/thumbnail7.png" class="thumbnail"></a>
+                <div class="flexDiv">
+                    <img src="images/Jack.png" alt="">
+                    <div class="videoInfo">
+                        <a href="playVideo.html">Best places to visit</a>
+                        <p>Websmith</p>
+                        <p>20M Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vidList">
+                <a href="playVideo.html"><img src="images/thumbnail8.png" class="thumbnail"></a>
+                <div class="flexDiv">
+                    <img src="images/Jack.png" alt="">
+                    <div class="videoInfo">
+                        <a href="playVideo.html">Best places to visit</a>
+                        <p>Websmith</p>
+                        <p>20M Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vidList">
+                <a href="playVideo.html"><img src="images/thumbnail1.png" class="thumbnail"></a>
+                <div class="flexDiv">
+                    <img src="images/Jack.png" alt="">
+                    <div class="videoInfo">
+                        <a href="playVideo.html">Best places to visit</a>
+                        <p>Websmith</p>
+                        <p>20M Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vidList">
+                <a href="playVideo.html"><img src="images/thumbnail2.png" class="thumbnail"></a>
+                <div class="flexDiv">
+                    <img src="images/Jack.png" alt="">
+                    <div class="videoInfo">
+                        <a href="playVideo.html">Best places to visit</a>
+                        <p>Websmith</p>
+                        <p>20M Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vidList">
+                <a href="playVideo.html"><img src="images/thumbnail3.png" class="thumbnail"></a>
+                <div class="flexDiv">
+                    <img src="images/Jack.png" alt="">
+                    <div class="videoInfo">
+                        <a href="playVideo.html">Best places to visit</a>
+                        <p>Websmith</p>
+                        <p>20M Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vidList">
+                <a href="playVideo.html"><img src="images/thumbnail4.png" class="thumbnail"></a>
+                <div class="flexDiv">
+                    <img src="images/Jack.png" alt="">
+                    <div class="videoInfo">
+                        <a href="playVideo.html">Best places to visit</a>
+                        <p>Websmith</p>
+                        <p>20M Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vidList">
+                <a href="playVideo.html"><img src="images/thumbnail5.png" class="thumbnail"></a>
+                <div class="flexDiv">
+                    <img src="images/Jack.png" alt="">
+                    <div class="videoInfo">
+                        <a href="playVideo.html">Best places to visit</a>
+                        <p>Websmith</p>
+                        <p>20M Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vidList">
+                <a href="playVideo.html"><img src="images/thumbnail6.png" class="thumbnail"></a>
+                <div class="flexDiv">
+                    <img src="images/Jack.png" alt="">
+                    <div class="videoInfo">
+                        <a href="playVideo.html">Best places to visit</a>
+                        <p>Websmith</p>
+                        <p>20M Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vidList">
+                <a href="playVideo.html"><img src="images/thumbnail7.png" class="thumbnail"></a>
+                <div class="flexDiv">
+                    <img src="images/Jack.png" alt="">
+                    <div class="videoInfo">
+                        <a href="playVideo.html">Best places to visit</a>
+                        <p>Websmith</p>
+                        <p>20M Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vidList">
+                <a href="playVideo.html"><img src="images/thumbnail8.png" class="thumbnail"></a>
+                <div class="flexDiv">
+                    <img src="images/Jack.png" alt="">
+                    <div class="videoInfo">
+                        <a href="playVideo.html">Best places to visit</a>
+                        <p>Websmith</p>
+                        <p>20M Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vidList">
+                <a href="playVideo.html"><img src="images/thumbnail1.png" class="thumbnail"></a>
+                <div class="flexDiv">
+                    <img src="images/Jack.png" alt="">
+                    <div class="videoInfo">
+                        <a href="playVideo.html">Best places to visit</a>
+                        <p>Websmith</p>
+                        <p>20M Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
